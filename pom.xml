@@ -25,7 +25,8 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+            <version>3.0.1</version>
+            <scope>test</scope>
 		</dependency>
         <dependency>
             <groupId>table</groupId>
@@ -36,6 +37,11 @@
 			<groupId>io.deephaven</groupId>
 			<artifactId>deephaven-TableLogger</artifactId>
 			<version>0.19.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>5.3.21</version>
 		</dependency>
 	</dependencies>
 
